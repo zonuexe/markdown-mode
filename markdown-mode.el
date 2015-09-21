@@ -5165,11 +5165,11 @@ before regenerating font-lock rules for extensions."
   (markdown-fontify-buffer-wiki-links))
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.m\\(ark\\)?do?wn\\'" . markdown-mode))
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.mk?dn?\\'" . markdown-mode))
 
 
 ;;; GitHub Flavored Markdown Mode  ============================================
